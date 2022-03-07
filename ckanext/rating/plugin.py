@@ -135,11 +135,4 @@ class RatingPlugin(plugins.SingletonPlugin, DefaultTranslation):
                     controller='ckanext.rating.controller:RatingController',
                     action='submit_showcase_rating')
 
-        map.connect(
-            '/dataset',
-            controller='ckanext.rating.controller:RatingPackageController',
-            action='search',
-            highlight_actions='index search'
-        )
-
         return map
