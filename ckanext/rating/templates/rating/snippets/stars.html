@@ -9,8 +9,8 @@ package  - The package for which the rating belongs to
 #}
 {% set ckan_29_or_higher = h.ckan_version().split('.')[1] | int >= 9 %}
 
-{% asset "ckanext-rating/rating-css" %}
-{% asset "ckanext-rating/rating-js" %}
+{% asset "rating/rating-css" %}
+{% asset "rating/rating-js" %}
 
 {% set action = 'submit_package_rating' %}
 {% if package.type == 'showcase' %}

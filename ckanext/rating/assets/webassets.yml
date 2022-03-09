@@ -1,6 +1,9 @@
 rating-js:
   filters: rjsmin 
   output: ckanext-rating/rating.js  
+  extra:
+    preload:
+      - base/main
   contents: 
     - js/rating.js
 rating-css: 

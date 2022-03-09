@@ -83,9 +83,7 @@ class RatingPlugin(RatingPluginBase, MixinPlugin):
     def update_config(self, config_):
         toolkit.add_template_directory(config_, '../templates')
         toolkit.add_public_directory(config_, '../public')
-        toolkit.add_resource('../fanstatic', 'rating')
-        toolkit.add_resource('../public/css/', 'rating_css')
-        toolkit.add_resource('../public/js/', 'rating_js')
+        toolkit.add_resource('../assets', 'rating')
 
     # IActions
 
