@@ -5,11 +5,10 @@ import sqlalchemy
 import ckan.model as model
 
 from ckanext.rating.logic import action
-from ckanext.rating import helpers
 import ckanext.rating.logic.auth as rating_auth
 from ckanext.rating.model import Rating
 from ckan.plugins.toolkit import get_action
-from helpers import show_rating_in_type
+from ckanext.rating.helpers import show_rating_in_type
 
 import logging
 
