@@ -1,0 +1,9 @@
+rating-js:
+  filters: rjsmin 
+  output: ckanext-rating/rating.js  
+  contents: 
+    - js/rating.js
+rating-css: 
+  output: ckanext-rating/rating.css
+  contents:
+    - css/rating.css
