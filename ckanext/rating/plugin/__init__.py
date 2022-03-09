@@ -8,6 +8,7 @@ from ckanext.rating.logic import action
 import ckanext.rating.logic.auth as rating_auth
 from ckanext.rating.model import Rating
 from ckan.plugins.toolkit import get_action
+from ckanext.rating import helpers
 from ckanext.rating.helpers import show_rating_in_type
 
 import logging
