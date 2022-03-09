@@ -15,4 +15,3 @@ def rating():
 @rating.command()
 def init():
     utils.init_db()
-    click.secho(u"DB tables created", fg=u"green")
